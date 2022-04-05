@@ -1,0 +1,242 @@
+body {
+    background-color: #464159;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+a:link {
+    color: #4f2fb6;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4f2fb6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+header {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 1.25rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 16px;
+    border-bottom: 1px solid black;
+}
+
+.nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 0px;
+}
+
+.nav ul li {
+    padding: 16px;
+    text-align: center;
+    font-size: 1.25rem;
+    border-bottom: 1px solid black;
+    background-color: #6C7B95;
+    transition: background-color 0.2s;
+}
+
+.nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li:hover {
+    background-color: lightskyblue;
+    color: black;
+}
+
+.banner {
+    background-image:url(images/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.banner-title {
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 8px lightpink;
+}
+
+.subtitle {
+    color: grey;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wrapper {
+    background-color:white;
+    padding: 20px 20px 20px 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.introduction {
+    background-color: white;
+    color: black;
+    font-size: 1.25rem;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+}
+
+.directory {
+    background-color: white;
+    color: black;
+    font-size: 1.25rem;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+}
+
+.directory ol li {
+    padding-bottom: 12px;
+}
+
+.docs {
+    background-color: white;
+    color: black;
+    font-size: 1.25rem;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+}
+
+.docs-image {
+    margin-left: auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.docs-image img {
+    border: 2px solid #464159;
+    text-align: center;
+}
+
+.docs-text h3 {
+    text-align: center;
+}
+
+.docs-text p {
+    padding: 5px 5px 5px 5px;
+}
+
+.footer {
+    background-color: #464159;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.centered-container {
+    max-width: 1020px;
+    margin: 0px auto;
+    padding: 0px 16px;
+}
+
+/* 
+If the viewer is using a large display (desktop, laptop, etc.), these style settings will override the previous settings.
+*/
+
+@media screen and (min-width: 950px){
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: fit-content;
+    }
+
+    .title {
+        display: inline-block;
+        text-align: left;
+        border-bottom: 0px;  
+    }
+
+    .nav {
+        height: 45px;
+    }
+
+    .nav ul {
+        text-align: right;
+    }
+
+    .nav ul li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid black;
+        text-align: left;
+    }
+    /* Do NOT touch the above text-align:left setting! Will introduce a gap between nav items. */
+
+    .wrapper {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .introduction {
+        background-color: white;
+        color: black;
+        font-size: 1.25rem;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .directory {
+        background-color: white;
+        color: black;
+        font-size: 1.25rem;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (min-width: 1500px){
+    .docs {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .docs-text {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 55%;
+        margin-right: 5%;
+    }
+
+    .docs-image {
+        margin-left: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
