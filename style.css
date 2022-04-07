@@ -71,26 +71,30 @@ header {
 }
 
 .banner {
+    background-color: black;
     background-image:url(images/banner.jpg);
     background-position: center center;
     background-size: cover;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 105px;
+    padding-bottom: 105px;
 }
 
 .banner-title {
     text-align: center;
     color: white;
     font-size: 3.5rem;
-    text-shadow: 2px 2px 8px lightpink;
+    background-color: rgb(0, 0, 0, .5);
+    width: 100%;
 }
 
 .subtitle {
-    color: grey;
-    font-size: 1.5rem;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0, .5);
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .wrapper {
