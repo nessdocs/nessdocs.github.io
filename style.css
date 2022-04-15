@@ -109,7 +109,7 @@ header {
     color: black;
     font-size: 1.25rem;
     text-align: left;
-    padding: 20px 20px 20px 20px;
+    padding: 10px 20px;
 }
 
 .directory {
@@ -117,7 +117,7 @@ header {
     color: black;
     font-size: 1.25rem;
     text-align: left;
-    padding: 20px 20px 20px 20px;
+    padding: 10px 20px;
 }
 
 .directory ol li {
@@ -129,13 +129,20 @@ header {
     color: black;
     font-size: 1.25rem;
     text-align: left;
-    padding: 20px 20px 20px 20px;
+    padding: 10px 20px;
 }
 
 .docs-image {
+    font-size: 1.05rem;
     margin-left: auto;
     text-align: center;
     padding-bottom: 10px;
+}
+
+.docs-image p {
+    font-size: 1.10rem;
+    font-weight: lighter;
+    color: grey;
 }
 
 .docs-image img {
