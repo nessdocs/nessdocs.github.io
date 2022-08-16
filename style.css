@@ -111,25 +111,24 @@ header {
     margin-right: 5%;
 }
 
-.introduction {
-    background-color: white;
-    color: black;
-    font-size: 1.25rem;
-    text-align: left;
-    padding: 10px 20px;
-}
-
 .directory {
     background-color: white;
     color: black;
     font-size: 16px;
+    margin: 0 auto;
+}
+
+h2 {
     text-align: center;
-    list-style-position: inside;
-    padding: 10px 20px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .directory ol li {
-    padding-bottom: 12px;
+    list-style: none;
+    text-align: center;
+    padding: 0 0 12px 0;
+    margin: 0 auto 15px;
 }
 
 hr {
