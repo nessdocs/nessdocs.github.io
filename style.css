@@ -1,3 +1,9 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
 body {
     background-color: #464159;
     color: black;
@@ -126,6 +132,14 @@ header {
     padding-bottom: 12px;
 }
 
+hr {
+    width: 70%;
+    margin: 45px auto;
+    border: 0;
+    height: 1px;
+    border-bottom: 1px solid #464159;
+}
+
 .docs {
     background-color: white;
     color: black;
@@ -142,7 +156,6 @@ header {
     font-size: 16px;
     margin-left: auto;
     text-align: center;
-    border: #464159 solid 1px;
 }
 
 .docs-image p {
@@ -157,7 +170,6 @@ header {
 }
 
 .docs-text {
-    border: #464159 solid 1px;
     height: auto;
 }
 
