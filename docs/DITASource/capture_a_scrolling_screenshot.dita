@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_capture_a_scrolling_screenshot">
+    <title>Capture a Scrolling Window Screenshot</title>
+    <shortdesc>How to capture a scrolling window screenshot.</shortdesc>
+    <taskbody>
+        <context>
+            <p>A scrolling window screenshot will capture the entire width or length of a program's
+                interface. This type of screenshot is useful when you want to capture an entire
+                webpage.</p>
+        </context>
+        <steps>
+            <step audience="novice">
+                <cmd>Find a webpage you want to capture.</cmd>
+            </step>
+            <step audience="novice">
+                <cmd>Select the <b>Image</b> tab.</cmd>
+            </step>
+            <step>
+                <cmd>Set the Selection type to <b>Scrolling Window</b>.</cmd>
+            </step>
+            <step audience="novice">
+                <cmd>Set Effects and Share to <b>None</b>.</cmd>
+            </step>
+            <step audience="novice">
+                <cmd>Toggle the <b>Capture Cursor</b> option off.</cmd>
+                <info audience="novice">The toggle icon should be grey when it is turned off.</info>
+            </step>
+            <step audience="novice">
+                <cmd>Toggle the <b>Preview in Editor</b> option on.</cmd>
+                <info audience="novice">The toggle icon should be blue when it is turned on.</info>
+            </step>
+            <step>
+                <cmd>Click on <b>Capture</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Click on the arrow icon at the bottom of the capture area.</cmd>
+            </step>
+        </steps>
+        <result id="result_kyg_5cd_45b">Snagit will scroll down the window and process the capture.
+            Snagit Editor will display the completed capture.</result>
+        <example id="example_v31_vcd_45b">You are researching Google results to optimize the SEO for
+            our user documentation. After the search results load, you capture a vertically
+            scrolling window screenshot. Snagit processes the image and displays it in Snagit
+            Editor. You can now refer to this screenshot when compiling data about SEO
+            results.</example>
+    </taskbody>
+</task>

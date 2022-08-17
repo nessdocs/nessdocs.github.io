@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what_is_snagit_editor">
+    <title>Editing Screenshots</title>
+    <shortdesc>You can use Snagit Editor for basic image editing tasks.</shortdesc>
+    <conbody>
+        <p>Snagit has a lot of features that cater to user documentation and tutorial creation.
+            Snagit comes packaged with Snagit Editor, so you can immediately edit your screenshots
+            after capturing them. This section will show you how to perform the most common used
+            editing tasks:<ol id="ol_nv4_vmd_45b">
+                <li>Crop Screenshots</li>
+                <li>Add Callouts to Screenshots</li>
+                <li>Resize Screenshots</li>
+                <li>Save Screenshots</li>
+            </ol></p>
+    </conbody>
+</concept>
