@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_capture_a_region_screenshot">
+    <title>Capture a Region Screenshot</title>
+    <taskbody>
+        <context>
+            <p>A region screenshot will only capture the area you select. This type of screenshot is
+                useful when you only need a small portion of the screen or program UI.</p>
+        </context>
+        <steps>
+            <step audience="novice">
+                <cmd>Select the <b>Image</b> tab.</cmd>
+            </step>
+            <step>
+                <cmd>Set the Selection type to <b>Region</b>.</cmd>
+            </step>
+            <step audience="novice">
+                <cmd>Set Effects and Share to <b>None</b>.</cmd>
+            </step>
+            <step audience="novice">
+                <cmd>Toggle the <b>Capture Cursor</b> option off.</cmd>
+                <info audience="novice">The toggle icon should be grey when it is turned off.</info>
+            </step>
+            <step audience="novice">
+                <cmd>Toggle the <b>Preview in Editor</b> option on.</cmd>
+                <info audience="novice">The toggle icon should be blue when it is turned on.</info>
+            </step>
+            <step>
+                <cmd>Click on <b>Capture</b>.</cmd>
+                <info>The aiming reticle will appear.</info>
+            </step>
+            <step>
+                <cmd>Move your mouse to the top corner of the capture area.</cmd>
+            </step>
+            <step>
+                <cmd>Hold down the left mouse button.</cmd>
+            </step>
+            <step>
+                <cmd>Drag the mouse diagonally to the bottom corner of the capture area.</cmd>
+            </step>
+            <step>
+                <cmd>Release the left mouse button.</cmd>
+            </step>
+        </steps>
+        <result id="result_sgg_zyc_45b">Snagit Editor will open up and display the screenshot you
+            captured.</result>
+    </taskbody>
+</task>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Description:Open an image in Snagit Editor.-->
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ReusableComponent_dmw_jg2_45b">
+    <title/>
+    <taskbody>
+        <steps>
+            <step id="step_emw_jg2_45b">
+                <cmd>Open <b>Snagit Editor</b>.</cmd>
+            </step>
+            <step id="step_gmw_jg2_45b">
+                <cmd>Click on the <b>Library</b> icon.</cmd>
+            </step>
+            <step id="step_hmw_jg2_45b">
+                <cmd>Double-click on an image to open it.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

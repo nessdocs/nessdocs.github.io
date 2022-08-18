@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Capturing and Editing Screenshots in Snagit</title>
+    <topicref href="capturing_screenshots.dita">
+        <topicref href="open_snagit.dita" audience="novice"/>
+        <topicref href="capture_a_window_screenshot.dita"/>
+        <topicref href="capture_a_region_screenshot.dita"/>
+        <topicref href="capture_a_scrolling_screenshot.dita"/>
+    </topicref>
+    <topicref href="editing_screenshots.dita">
+        <topicref href="open_snagit_editor.dita" audience="novice"/>
+        <topicref href="crop_screenshots.dita"/>
+        <topicref href="add_callouts.dita"/>
+        <topicref href="resize_screenshots.dita"/>
+        <topicref href="saving_captures.dita"/>
+    </topicref>
+    <topicref href="references.dita"/>
+</map>

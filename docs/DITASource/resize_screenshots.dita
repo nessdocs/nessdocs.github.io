@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_resize_screenshots">
+    <title>Resize Screenshots</title>
+    <taskbody>
+        <context>
+            <p>Sometimes screenshots are too large and need to be resized. You can make screenshots
+                smaller using Snagit Editor's resize tool. It will resample the image when resizing
+                to keep the maximum amount of detail. Resizing to make an image larger should be
+                avoided, since it will become blurry.</p>
+        </context>
+        <steps>
+            <step conref="open_image.dita#ReusableComponent_dmw_jg2_45b/step_emw_jg2_45b"
+                conrefend="open_image.dita#ReusableComponent_dmw_jg2_45b/step_hmw_jg2_45b"
+                audience="novice">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Open the <b>Image</b> menu.</cmd>
+            </step>
+            <step>
+                <cmd>Select the <b>Resize Image...</b> tool.</cmd>
+            </step>
+            <step>
+                <cmd>Enter your desired width in the <b>Width</b> field.</cmd>
+                <stepresult>Snagit Editor will automatically scale the height of the image to match
+                    the new width, and vice versa.</stepresult>
+            </step>
+            <step>
+                <cmd>Click on <b>Apply</b>.</cmd>
+            </step>
+        </steps>
+        <result id="result_icy_3h2_45b">You now have a resized image.</result>
+    </taskbody>
+</task>

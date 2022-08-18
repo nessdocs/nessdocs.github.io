@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="references">
+    <title>References</title>
+    <shortdesc>This is a list of commonly used Snagit and Snagit Editor keyboard shortcuts. </shortdesc>
+    <refbody>
+        <table frame="all" rowsep="1" colsep="1" id="table_uxz_d43_ntb">
+            <title>Snagit Capture Keyboard Shortcuts</title>
+            <tgroup cols="2" align="center">
+                <colspec colname="c2" colnum="1" colwidth="1*"/>
+                <colspec colname="c3" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Keyboard Shortcut</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Ctrl + Shift + X</entry>
+                        <entry>Show / Hide Snagit</entry>
+                    </row>
+                    <row>
+                        <entry>PrtSc (Print Screen)</entry>
+                        <entry>Starts Image Capture</entry>
+                    </row>
+                    <row>
+                        <entry>Shift + F9</entry>
+                        <entry>Starts, Pauses, and Resumes Video Capture</entry>
+                    </row>
+                    <row>
+                        <entry>Shift + F10</entry>
+                        <entry>Stops Video Capture</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <table frame="all" rowsep="1" colsep="1" id="table_vpl_m43_ntb">
+            <title>Snagit Editor Keyboard Shortcuts</title>
+            <tgroup cols="2" align="center">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Keyboard Shortcuts</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Ctrl + S</entry>
+                        <entry>Save</entry>
+                    </row>
+                    <row>
+                        <entry>Ctrl + Shift + S</entry>
+                        <entry>Save As</entry>
+                    </row>
+                    <row>
+                        <entry>Ctrl + Z</entry>
+                        <entry>Undo</entry>
+                    </row>
+                    <row>
+                        <entry>Ctrl + Y</entry>
+                        <entry>Redo</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>
