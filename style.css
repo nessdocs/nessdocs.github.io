@@ -148,7 +148,7 @@ hr {
 
 .docs-image {
     font-size: 16px;
-    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
@@ -164,6 +164,7 @@ hr {
 }
 
 .docs-text {
+    margin-left: auto;
     height: auto;
 }
 
@@ -263,11 +264,11 @@ If the viewer is using a large display (desktop, laptop, etc.), these style sett
         padding-left: 20px;
         padding-right: 20px;
         width: 55%;
-        margin-right: 5%;
+        margin-left: 5%;
     }
 
     .docs-image {
-        margin-left: 5%;
+        margin-right: 5%;
         padding-left: 20px;
         padding-right: 20px;
         width: 45%;
